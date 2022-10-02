@@ -1,0 +1,36 @@
+.main-table-container{
+    width: 100vw;
+    margin-top: 5px;
+    display: flex;
+    background-color: white;
+    .table-content-container{
+        width: 94%;
+        border-collapse: collapse;
+        text-align: center;
+        // border-radius: ;
+        overflow: hidden;
+        .table-header{
+            position: sticky;
+            z-index: 100;
+            // background-color: green;;
+            .header-content{
+ padding: 20px;
+            }
+        }
+        .table-body{
+            // width: 100%;
+
+            .tbody-tr{
+                padding: 10px;
+            }
+   .table-content{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+          
+        }
+        }
+     
+    }
+}
